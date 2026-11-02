@@ -1,0 +1,41 @@
+# Godot
+.godot/
+.import/
+export.cfg
+export_presets.cfg
+*.translation
+mono_crash.*.json
+
+# Godot Android build template (regenerated via Project > Install Android Build Template)
+android/build/
+
+# Secrets / signing / Firebase config
+google-services.json
+GoogleService-Info.plist
+key-detls.txt
+*.jks
+*.keystore
+*.p12
+*.pem
+local.properties
+
+# Build outputs
+*.apk
+*.aab
+*.idsig
+build/
+.gradle/
+.kotlin/
+
+# Local save/test data
+leos.cfg
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+.vscode/
+.idea/
+.claude/
